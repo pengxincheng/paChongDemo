@@ -22,6 +22,7 @@ public class Main {
         //链接到该网站
         Connection connection = Jsoup.connect(url);
         Document content = null;
+
         try {
             //获取内容
             content = connection.get();
